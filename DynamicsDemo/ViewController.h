@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MenuComponent.h"
+#import "AlertComponent.h"
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) MenuComponent *menuComponent;
+@property (nonatomic, strong) AlertComponent *alertComponent;
+
+- (void)showMenu:(UIGestureRecognizer *)gestureRecognizer;
 
 @end
 

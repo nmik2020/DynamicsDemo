@@ -13,6 +13,8 @@
 		B02647D51976F76D005730D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02647D31976F76D005730D5 /* Main.storyboard */; };
 		B02647D71976F76D005730D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02647D61976F76D005730D5 /* Images.xcassets */; };
 		B02647E31976F76D005730D5 /* DynamicsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B02647E21976F76D005730D5 /* DynamicsDemoTests.m */; };
+		B02647EE1976F807005730D5 /* MenuComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B02647ED1976F807005730D5 /* MenuComponent.m */; };
+		B02647F119770F9C005730D5 /* AlertComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B02647F019770F9C005730D5 /* AlertComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,10 @@
 		B02647DC1976F76D005730D5 /* DynamicsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02647E11976F76D005730D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02647E21976F76D005730D5 /* DynamicsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicsDemoTests.m; sourceTree = "<group>"; };
+		B02647EC1976F807005730D5 /* MenuComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuComponent.h; path = ../MenuComponent.h; sourceTree = "<group>"; };
+		B02647ED1976F807005730D5 /* MenuComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuComponent.m; path = ../MenuComponent.m; sourceTree = "<group>"; };
+		B02647EF19770F9C005730D5 /* AlertComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertComponent.h; sourceTree = "<group>"; };
+		B02647F019770F9C005730D5 /* AlertComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,10 @@
 		B02647C81976F76D005730D5 /* DynamicsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B02647EC1976F807005730D5 /* MenuComponent.h */,
+				B02647ED1976F807005730D5 /* MenuComponent.m */,
+				B02647EF19770F9C005730D5 /* AlertComponent.h */,
+				B02647F019770F9C005730D5 /* AlertComponent.m */,
 				B02647CD1976F76D005730D5 /* AppDelegate.h */,
 				B02647CE1976F76D005730D5 /* AppDelegate.m */,
 				B02647D01976F76D005730D5 /* ViewController.h */,
@@ -216,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02647D21976F76D005730D5 /* ViewController.m in Sources */,
+				B02647F119770F9C005730D5 /* AlertComponent.m in Sources */,
 				B02647CF1976F76D005730D5 /* AppDelegate.m in Sources */,
+				B02647EE1976F807005730D5 /* MenuComponent.m in Sources */,
 				B02647CC1976F76D005730D5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
